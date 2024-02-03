@@ -8,7 +8,7 @@ class App {
     this.page = new PageComponent();
     this.page.attachTo(appRoot);
     const image = new ImageComponent('image', 'https://picsum.photos/600/300');
-    image.attatchTo(appRoot, 'beforeend');
+    image.attachTo(appRoot, 'beforeend');
   }
 }
 
